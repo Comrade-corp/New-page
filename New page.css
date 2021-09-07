@@ -1,0 +1,104 @@
+ body {
+background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+}
+  h1 {
+    font-family: "Times New Roman", Times, serif;
+  }
+  span.help {
+  writing-mode: vertical-rl;
+}
+p.help {
+  writing-mode: vertical-rl;
+}
+a {
+  animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  16% { color: orange; }
+    32% { color: red; }
+    48% { color: green; }
+    64% { color: blue; }
+    100% { color: indigo; }
+}
+p {
+  animation: color-change 5.5s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  16% { color: orange; }
+    32% { color: red; }
+    48% { color: green; }
+    64% { color: blue; }
+    100% { color: indigo; }
+}
+h1 {
+  text-shadow: 2px 2px lime;
+}
+h1 {
+  animation: color-change 15s infinite;
+}
+
+@keyframes color-change {
+  0% {color: black;}
+  25%{color: grey;}
+  50%{color:green;}
+}
+/* Style The Dropdown Button */
+.dropbtn {
+  background-color: lime;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: hand;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */jh
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+.dropdown {
+  position:absolute;
+  left: 450px;
+  top: 50;
+}
+#vector{
+height:219px;
+width:193px;
+background:url(lmao.jpg) -131px -47px no-repeat;
+}
