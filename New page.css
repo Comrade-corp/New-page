@@ -1,13 +1,16 @@
  body {
 background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
+full {
+  background : green;
+}
   h1 {
     font-family: "Times New Roman", Times, serif;
   }
   span.help {
   writing-mode: vertical-rl;
 }
-p.help {
+p1.help {
   writing-mode: vertical-rl;
 }
 a {
@@ -22,7 +25,7 @@ a {
     64% { color: blue; }
     100% { color: indigo; }
 }
-p {
+p1 {
   animation: color-change 5.5s infinite;
 }
 
@@ -38,13 +41,15 @@ h1 {
   text-shadow: 2px 2px lime;
 }
 h1 {
-  animation: color-change 15s infinite;
+  animation: color-change 5s infinite;
 }
 
 @keyframes color-change {
   0% {color: black;}
   25%{color: grey;}
   50%{color:green;}
+  75%{color:blue;}
+  100%{color:lime;}
 }
 /* Style The Dropdown Button */
 .dropbtn {
@@ -94,11 +99,36 @@ h1 {
 }
 .dropdown {
   position:absolute;
-  left: 450px;
-  top: 50;
+  left: 100px;
+  top:  0px;
+    /*position: -webkit-sticky;*/
+  /*position: sticky;*/
 }
-#vector{
-height:219px;
-width:193px;
-background:url(lmao.jpg) -131px -47px no-repeat;
+/*#vector{*/
+/*height:219px;*/
+/*width:193px;*/
+/*background:url(lmao.jpg) 131px 47px no-repeat;*/
+}
+.parallax {
+  /* The image used */
+  background-image: url("img_parallax.jpg");
+
+  /* Set a specific height */
+  min-height: 500px;
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.dud {
+  position:absolute;
+  top 0px;
+  left:0px;
+}
+.topnav {
+   background-color: lime;
+  position: -webkit-sticky;
+  position:sticky;
 }
