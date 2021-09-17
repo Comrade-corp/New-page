@@ -7,4 +7,5 @@ do the same things for the tags to different games and such so you can properly 
 for the back to page on the sponser message you need to open the main page and get its link then you can put that in the allocated spot ⎝๏ ͜つ๏⎠
 
 
-100% not going to work on a windows machine for the most part becaues I am making this on my school chromebook ﴾^_^﴿
+100% not going to work on a windows machine for the most part becaues I am making this on my school chromebook
+﴾^_^﴿
