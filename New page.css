@@ -1,22 +1,23 @@
+ /*makes the funky rainbow color*/
  body {
 background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
 }
-full {
-  background : green;
-}
+
+/*sets font for h1 tags*/
   h1 {
     font-family: "Times New Roman", Times, serif;
   }
+  /*rotated text code*/
   span.help {
   writing-mode: vertical-rl;
 }
 p1.help {
   writing-mode: vertical-rl;
 }
-a {
+a { /*makes every link rainbow*/
   animation: color-change 5s infinite;
 }
-
+ /*keyframes for rainbow*/
 @keyframes color-change {
   0% { color: red; }
   16% { color: orange; }
@@ -28,7 +29,7 @@ a {
 p1 {
   animation: color-change 5.5s infinite;
 }
-
+ /*makes every <p1> tag rainbow*/
 @keyframes color-change {
   0% { color: red; }
   16% { color: orange; }
@@ -40,10 +41,11 @@ p1 {
 h1 {
   text-shadow: 2px 2px lime;
 }
+ /*above makes there a shadow that is lime, below makes it rainbow colored*/
 h1 {
   animation: color-change 5s infinite;
 }
-
+/*keyframes for rainbow h1 tags*/
 @keyframes color-change {
   0% {color: black;}
   25%{color: grey;}
@@ -99,7 +101,113 @@ h1 {
 }
 .dropdown {
   position:absolute;
+  left: 170px;
+  top:  0px;
+    /*position: -webkit-sticky;*/
+  /*position: sticky;*/
+}
+/* Style The Dropdown Button */
+.dropbtn2 {
+  background-color: lime;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: hand;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */jh
+.dropdown-content2 a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown2:hover .dropbtn2 {
+  background-color: #3e8e41;
+}
+.dropdown2 {
+  position:absolute;
   left: 100px;
+  top:  0px;
+    /*position: -webkit-sticky;*/
+  /*position: sticky;*/
+}
+/* Style The Dropdown Button */
+.dropbtn3 {
+  background-color: lime;
+  color: black;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: hand;
+}
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content3 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+/* Change color of dropdown links on hover */jh
+.dropdown-content3 a:hover {background-color: #f1f1f1}
+
+/* Show the dropdown menu on hover */
+.dropdown3:hover .dropdown-content3 {
+  display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown3:hover .dropbtn3 {
+  background-color: #3e8e41;
+}
+.dropdown3 {
+  position:absolute;
+  left: 270px;
   top:  0px;
     /*position: -webkit-sticky;*/
   /*position: sticky;*/
@@ -127,7 +235,7 @@ h1 {
   top 0px;
   left:0px;
 }
-.topnav {
+.title {
    background-color: lime;
   position: -webkit-sticky;
   position:sticky;
