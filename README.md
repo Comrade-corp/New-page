@@ -1,11 +1,25 @@
-# New-page
-just a new page
-put this install folder that you download into my files and it *should* work correctly ( ͡°⏠ ͡°)
-if favicon sponser page and back to home not working then change the links. 
-~~for favicon: go to chromem then hit ctrl + o find the folder with the files and open the png, put the png to replace the link that will have somthing to tell you its the favicon.~~
-do the same things for the tags to different games and such so you can properly launch them.
-for the back to page on the sponser message you need to open the main page and get its link then you can put that in the allocated spot ⎝๏ ͜つ๏⎠
-
-
-a lot of this is not going to work on a windows machine for the most part becaues I am making this on my school chromebook, oof.
-﴾^_^﴿
+# Thanks for downloading New Page
+***
+## customization
+***
+This page is intended for you the downlaoder to customize which is why the images are replaced with blank pngs and all links #'d and Æ'd out. 
+I Have an intuived and user friendly setup for customizing the links. #'s represent links and Æ's represent the text displayed for them! Easy all you need to do is
+type each Æ with the wanted text, and each # for the link.
+steps:
+find "newpage.html" open it in txt if on chromebook(default) on windows open with notepad (or other text/code editor.) and edit the things shown above.
+***
+### Install instructions
+***
+chromebook: 
+1. copy the folder into "myfiles"
+2. find "newpage.html" right click it and click "open with" then click on "viewer" OR go to chrome hit ctrl+O find "newpage.html" and double click on it
+3. if you want to use it often then bookmark it
+4. enjoy!
+***
+Windows: 
+1. unzip the files into "documents" or "downloads"
+2. go to you browser of choice and hit ctrl+O
+3. locate "newpage.html" and double click
+4. you can bookmark if you want to use it
+5. enjoy!
+***
